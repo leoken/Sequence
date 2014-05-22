@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $status = $(".status");
     var options = {
+        autoPlay: true,
         autoPlayDelay: 4000,
         pauseOnHover: false,
         hidePreloaderDelay: 500,
@@ -11,6 +12,7 @@ $(document).ready(function(){
         hidePreloaderUsingCSS: false,                   
         animateStartingFrameIn: true,    
         navigationSkipThreshold: 750,
+        preventDelayWhenReversingAnimations: true,
         customKeyEvents: {
             80: "pause"
         }
